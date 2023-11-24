@@ -1,0 +1,74 @@
+.hero {
+    width: 100vw;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--black-color);
+    align-items: flex-end;
+}
+
+.heroImg img {
+    width: 468px;
+    height: 544px;
+}
+
+.headings {
+    width: 30vw;
+}
+
+
+/* ****************************************************** */
+
+.emailWrapper {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.envelope {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--white-color);
+    opacity: 50%;
+}
+
+.emailField {
+    padding-left: 50px;
+    height: 74px;
+    width: 438px;
+    border-radius: 43px;
+    border: 10px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.emailField:focus-visible {
+    outline-color: var(--gray-color);
+    outline-width: 2px;
+    outline-style: solid;
+}
+
+.emailField::placeholder {
+    color: var(--white-color);
+    font-weight: 500;
+    opacity: 50%;
+}
+
+.letsTalk {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 137px;
+    height: 62px;
+    padding: 0 15px;
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 43px;
+    font-weight: 600;
+}

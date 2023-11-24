@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 70px;
+    align-items: center;
+    padding: 90px 20px;
+    background-color: var(--black-color);
+}
+
+.nav_links ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25vw;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contactNow button {
+    background-color: inherit;
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+    width: 170px;
+    height: 45px;
+    font-weight: 600;
+    cursor: pointer;
+}

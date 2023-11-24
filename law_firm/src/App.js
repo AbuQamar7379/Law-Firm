@@ -1,9 +1,14 @@
 import "./App.css";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar/Navbar";
+// import Test from './components/Test'
 
 function App() {
   return (
-    <div className="App">
-      <h1> Law Firm </h1>{" "}
+    <div>
+      <Navbar />
+      <Hero />
+      {/* <Test /> */}
     </div>
   );
 }
