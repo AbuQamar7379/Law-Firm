@@ -1,0 +1,50 @@
+.cardParent {
+  /* display: flex; */
+  width: 80vw;
+  gap: 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.imgWrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 60%;
+  background-color: var(--white-color);
+  position: relative;
+  margin: 15px;
+}
+
+.imgWrapper img {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.successRate p {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 15px;
+}
+
+.successContent p {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 30%;
+  line-height: 20px;
+  margin: 15px;
+}
+
+.readMore {
+  color: var(--black-color);
+  background-color: var(--yellow-color);
+  font-weight: 600;
+  font-size: 14px;
+  width: 120px;
+  height: 42px;
+  border-radius: 23px;
+  border: 1px solid var(--yellow-color);
+  margin: 15px;
+  cursor: pointer;
+}

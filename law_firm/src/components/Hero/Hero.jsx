@@ -3,37 +3,34 @@ import styles from "./hero.module.css";
 import hero from "../../assets/hero.svg";
 import { FaEnvelope } from "react-icons/fa";
 import Button from "../Button/Button";
+import { useSnackbar } from "notistack";
 
 function Hero() {
   let [email, setEmail] = useState("");
+  let { enqueueSnackbar } = useSnackbar();
 
   const handleEmail = (e) => {
     setEmail(e.target.value);
   };
 
   const handleClick = (e) => {
-    console.log(e.target.value);
+    e.preventDefault();
+    if (email) {
+      enqueueSnackbar("Request Sended Sucessfully", {
+        variant: "success",
+        autoHideDuration: 2000,
+      });
+    }
+    setEmail("");
   };
 
   return (
-    <div style={{ height: "720px", backgroundColor: "#111111" }}>
+    <div className={styles.heroWrapper}>
       <div className={styles.hero}>
         <div className={styles.headings}>
-          <p style={{ fontSize: "66px", fontWeight: 500, lineHeight: "90px" }}>
-            You don't have to
-          </p>
-          <p style={{ fontSize: "66px", fontWeight: 700, lineHeight: "90px" }}>
-            Fight them Alone.
-          </p>
-          <p
-            style={{
-              fontSize: "18px",
-              fontWeight: 500,
-              lineHeight: "30px",
-              color: "gray",
-              marginTop: "30px",
-            }}
-          >
+          <p className={styles.heading1}>You don't have to</p>
+          <p className={styles.heading2}>Fight them Alone.</p>
+          <p className={styles.heading3}>
             Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
             curabitur sodales conubia ut inceptos faucibus himenaeos tortor
             eget, hac massa gravida arcu interdum proin curae.

@@ -1,0 +1,28 @@
+.footer {
+  position: relative;
+  background-color: var(--black-color);
+  top: 200px;
+  height: 370px;
+  width: 100vw;
+}
+
+.terms {
+  margin: 50px auto;
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .terms {
+    width: 80%;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

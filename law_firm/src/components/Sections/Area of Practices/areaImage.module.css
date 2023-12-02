@@ -1,0 +1,63 @@
+.areaParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1200px;
+  position: relative;
+  top: 200px;
+}
+
+.area {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 75px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.parentGrid {
+  width: 60vw;
+  height: 1000px;
+}
+
+.imgGrid {
+  width: 100%;
+  position: relative;
+  height: 340px;
+}
+
+.imgGrid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.imgName {
+  width: 90%;
+  position: absolute;
+  top: 80%;
+  text-align: center;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .areaParent {
+    top: 100px;
+    height: auto;
+  }
+  .area {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .parentGrid {
+    width: 95vw;
+    height: auto;
+  }
+  .imgGrid {
+    height: 150px;
+  }
+  .imgName {
+    font-size: 10px;
+  }
+}

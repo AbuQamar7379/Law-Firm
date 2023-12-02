@@ -1,3 +1,8 @@
+.heroWrapper {
+    height: 720px;
+    background-color: #111111;
+}
+
 .hero {
     width: 100vw;
     height: 550px;
@@ -14,6 +19,26 @@
 
 .headings {
     width: 30vw;
+}
+
+.heading1 {
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+.heading2 {
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 90px;
+}
+
+.heading3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: gray;
+    margin-top: 30px;
 }
 
 
@@ -71,4 +96,47 @@
     cursor: pointer;
     border-radius: 43px;
     font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .heroWrapper {
+        height: 650px;
+    }
+    .hero {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .heroImg img {
+        width: 260px;
+        height: 260px;
+        margin-top: 20px;
+    }
+    .headings {
+        width: 80vw;
+    }
+    .heading1 {
+        font-size: 24px;
+        line-height: 70px;
+    }
+    .heading2 {
+        font-size: 24px;
+        line-height: 20px;
+    }
+    .heading3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .emailField {
+        height: 50px;
+        width: 85vw;
+    }
+    .emailField::placeholder {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .letsTalk {
+        width: 100px;
+        height: 38px;
+    }
 }
