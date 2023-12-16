@@ -55,7 +55,7 @@ const OurTeam = () => {
         >
           {teamData.map((data) => {
             return (
-              <Grid item xs={6} key={data.name}>
+              <Grid item xs={6} key={data.name} md={4}>
                 <Card className={styles.cardParent}>
                   <CardHeader
                     avatar={
