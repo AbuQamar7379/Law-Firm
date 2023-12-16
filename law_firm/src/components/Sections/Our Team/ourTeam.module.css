@@ -43,7 +43,7 @@
   font-size: 14px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .ourTeamWrapper {
     top: 150px;
     width: 90vw;

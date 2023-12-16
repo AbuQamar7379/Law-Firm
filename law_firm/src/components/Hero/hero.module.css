@@ -1,142 +1,142 @@
 .heroWrapper {
-    height: 720px;
-    background-color: #111111;
+  height: 720px;
+  background-color: #111111;
 }
 
 .hero {
-    width: 100vw;
-    height: 550px;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: var(--black-color);
-    align-items: flex-end;
+  width: 100vw;
+  height: 550px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--black-color);
+  align-items: flex-end;
 }
 
 .heroImg img {
-    width: 468px;
-    height: 544px;
+  width: 468px;
+  height: 544px;
 }
 
 .headings {
-    width: 30vw;
+  width: 30vw;
 }
 
 .heading1 {
-    font-size: 66px;
-    font-weight: 500;
-    line-height: 90px;
+  font-size: 66px;
+  font-weight: 500;
+  line-height: 90px;
 }
 
 .heading2 {
-    font-size: 66px;
-    font-weight: 700;
-    line-height: 90px;
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 90px;
 }
 
 .heading3 {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 30px;
-    color: gray;
-    margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: gray;
+  margin-top: 30px;
 }
-
 
 /* ****************************************************** */
 
 .emailWrapper {
-    position: relative;
-    display: inline-block;
-    margin-top: 30px;
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
 }
 
 .envelope {
-    position: absolute;
-    left: 30px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--white-color);
-    opacity: 50%;
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--white-color);
+  opacity: 50%;
 }
 
 .emailField {
-    padding-left: 50px;
-    height: 74px;
-    width: 438px;
-    border-radius: 43px;
-    border: 10px solid var(--primary-color);
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    font-weight: 500;
+  padding-left: 50px;
+  height: 74px;
+  width: 438px;
+  border-radius: 43px;
+  border: 10px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-weight: 500;
 }
 
 .emailField:focus-visible {
-    outline-color: var(--gray-color);
-    outline-width: 2px;
-    outline-style: solid;
+  outline-color: var(--gray-color);
+  outline-width: 2px;
+  outline-style: solid;
 }
 
 .emailField::placeholder {
-    color: var(--white-color);
-    font-weight: 500;
-    opacity: 50%;
+  color: var(--white-color);
+  font-weight: 500;
+  opacity: 50%;
 }
 
 .letsTalk {
-    position: absolute;
-    right: 6px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 137px;
-    height: 62px;
-    padding: 0 15px;
-    background-color: var(--yellow-color);
-    color: var(--black-color);
-    border: none;
-    cursor: pointer;
-    border-radius: 43px;
-    font-weight: 600;
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 137px;
+  height: 62px;
+  padding: 0 15px;
+  background-color: var(--yellow-color);
+  color: var(--black-color);
+  border: none;
+  cursor: pointer;
+  border-radius: 43px;
+  font-weight: 600;
 }
 
-@media (max-width: 600px) {
-    .heroWrapper {
-        height: 650px;
-    }
-    .hero {
-        flex-direction: column-reverse;
-        justify-content: flex-end;
-        align-items: center;
-    }
-    .heroImg img {
-        width: 260px;
-        height: 260px;
-        margin-top: 20px;
-    }
-    .headings {
-        width: 80vw;
-    }
-    .heading1 {
-        font-size: 24px;
-        line-height: 70px;
-    }
-    .heading2 {
-        font-size: 24px;
-        line-height: 20px;
-    }
-    .heading3 {
-        font-size: 16px;
-        line-height: 20px;
-    }
-    .emailField {
-        height: 50px;
-        width: 85vw;
-    }
-    .emailField::placeholder {
-        font-weight: 400;
-        font-size: 12px;
-    }
-    .letsTalk {
-        width: 100px;
-        height: 38px;
-    }
+@media (max-width: 900px) {
+  .heroWrapper {
+    height: 650px;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .heroImg img {
+    width: 260px;
+    height: 260px;
+    margin-top: 20px;
+  }
+  .headings {
+    width: 80vw;
+  }
+  .heading1 {
+    font-size: 24px;
+    line-height: 70px;
+  }
+  .heading2 {
+    font-size: 24px;
+    line-height: 20px;
+  }
+  .heading3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .emailField {
+    height: 50px;
+    width: 85vw;
+    padding-right: 35%;
+  }
+  .emailField::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .letsTalk {
+    width: 100px;
+    height: 38px;
+  }
 }

@@ -34,10 +34,10 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Intro />
+      <Intro />{" "}
       {isMobile === true ? (
         <>
-          <p className="Why"> Why Choose Us ? </p>
+          <p className="Why"> Why Choose Us ? </p>{" "}
           <Carousel
             data={successRates}
             component={(item) => <CarouselCard successRate={item} />}
@@ -45,7 +45,7 @@ function App() {
         </>
       ) : (
         <SucessCard successRate={successRates} />
-      )}
+      )}{" "}
       <AreaImage />
       <HappyClients />
       <OurTeam />

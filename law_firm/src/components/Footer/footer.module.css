@@ -1,7 +1,7 @@
 .footer {
   position: relative;
   background-color: var(--black-color);
-  top: 200px;
+  top: 400px;
   height: 370px;
   width: 100vw;
 }
@@ -13,11 +13,12 @@
   justify-content: space-between;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* top: 670px; */
   }
   .terms {
     width: 80%;

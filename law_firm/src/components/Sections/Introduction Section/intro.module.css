@@ -1,53 +1,53 @@
 .introWrapper {
-    width: 60vw;
-    height: 180px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-top: 150px;
-    gap: 70px;
+  width: 60vw;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 150px;
+  gap: 70px;
 }
 
 .introWrapper hr {
-    border: 1px solid #6a6a6a;
+  border: 1px solid #6a6a6a;
 }
 
 .intro {
-    width: 40%;
-    font-weight: 600;
-    font-size: 54px;
+  width: 40%;
+  font-weight: 600;
+  font-size: 54px;
 }
 
 .mySelfWrapper {
-    width: 40%;
+  width: 40%;
 }
 
 .post {
-    font-weight: 600;
-    font-size: 32px;
-    margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
 .mySelf {
-    font-weight: 500;
-    font-size: 18px;
-    opacity: 30%;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 30%;
 }
 
-@media (max-width: 600px) {
-    .introWrapper {
-        width: 85vw;
-        height: auto;
-        gap: 30px;
-        margin-top: 100px;
-    }
-    .intro {
-        font-size: 25px;
-    }
-    .post {
-        font-size: 25px;
-    }
-    .mySelf {
-        font-size: 12px;
-    }
+@media (max-width: 900px) {
+  .introWrapper {
+    width: 85vw;
+    height: auto;
+    gap: 30px;
+    margin-top: 100px;
+  }
+  .intro {
+    font-size: 25px;
+  }
+  .post {
+    font-size: 25px;
+  }
+  .mySelf {
+    font-size: 12px;
+  }
 }

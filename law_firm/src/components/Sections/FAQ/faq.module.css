@@ -1,8 +1,12 @@
+.sectionParent {
+  width: 100vw;
+  top: 500px;
+  position: relative;
+}
+
 .faqParent {
   width: 60vw;
   height: 630px;
-  position: relative;
-  top: 460px;
   margin: 0 auto;
 }
 
@@ -48,7 +52,10 @@
   opacity: 30%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+  .sectionParent {
+    top: 200px;
+  }
   .faqParent {
     width: 100vw;
     top: 200px;

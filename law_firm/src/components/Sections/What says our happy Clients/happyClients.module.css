@@ -88,7 +88,7 @@
   margin: 40% 30%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .parentClients {
     width: 90vw;
     top: 50px;

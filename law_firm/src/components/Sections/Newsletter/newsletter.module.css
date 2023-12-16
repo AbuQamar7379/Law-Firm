@@ -3,7 +3,7 @@
   height: 360px;
   background-color: rgba(71, 71, 71, 0.5);
   position: relative;
-  top: 350px;
+  top: 80px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -68,10 +68,10 @@
   font-style: italic;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .newsletterWrapper {
     width: 90vw;
-    top: 100px;
+    top: 20px;
   }
   .newsletter h1 {
     font-size: 30px;
